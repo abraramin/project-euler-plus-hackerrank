@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+* compile:
+* gcc -Wall -Werror -pedantic -std=c99 ./sol.c -o sol
+*/
+
 int main(int argc, char** argv) {
 	int numTestCases;
 	scanf("%d", &numTestCases);

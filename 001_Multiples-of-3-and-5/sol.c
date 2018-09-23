@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+* compile:
+* gcc -Wall -Werror -pedantic -std=c99 ./sol.c -o sol
+*/
+
 unsigned long int getGaussianSum(int n, int limit) {
 	unsigned long int lastVal = limit-1;
 	unsigned long int nCount = (lastVal)/n;
