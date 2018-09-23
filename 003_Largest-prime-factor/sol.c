@@ -53,4 +53,6 @@ int main(int argc, char** argv) {
 		largestPrimeFactor = (largestPrimeFactor == 1 && inputNum%2==0)?2:largestPrimeFactor;
 		printf("%lu\n", largestPrimeFactor);
 	}
+	
+	return 0;
 }
